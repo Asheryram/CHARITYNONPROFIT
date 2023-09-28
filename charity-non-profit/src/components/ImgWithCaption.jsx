@@ -6,7 +6,7 @@ import headerImage from "../assets/HeaderImage.svg";
 
 
 
-export function ImgWithCaption() {
+const ImgWithCaption =()=> {
   return (
     <div className="relative">
       <img
@@ -29,3 +29,5 @@ export function ImgWithCaption() {
     </div>
   );
 }
+
+export default ImgWithCaption;
