@@ -5,7 +5,7 @@ import vissionImg from '../assets/Vission.svg'
 
 function AboutTwo() {
   return (
-    <div className="flex flex-row md:flex-row p-auto my-20 mx-3 ">
+    <div className="md:flex flex-row md:flex-row p-auto my-20 mx-3 ">
       {/* Left Column (Image) */}
 
       <div className="w-full md:w-2/4 flex flex-col justify-center md:ml-4 md:mr-4">
@@ -35,7 +35,7 @@ function AboutTwo() {
       </div>
 
       {/* Right Column (Text) */}
-      <div className="w-full md:w-1/2 md:relative px-28 ">
+      <div className="w-full space-y-3 md:w-1/2 md:relative px-28 ">
         <div className="   p-2 bg-green-200/50 md:w-[60%] md:absolute md:top-[70%] md:left-[65%] md:-translate-y-1/2 md:-translate-x-1/2 backdrop-opacity-0">
           <div className="bg-white w-full h-auto">
             <ul className="list-disc list-inside text-sm space-y-4 p-1">

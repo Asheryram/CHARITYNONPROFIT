@@ -3,13 +3,13 @@ import About1_2 from "../assets/About1_2.svg";
 import { Button } from '@material-tailwind/react';
 function AboutOne() {
   return (
-    <div className="flex flex-row md:flex-row p-auto my-20 mx-5  ">
+    <div className="md:flex flex-row md:flex-row p-auto my-20 mx-5 items-center  ">
       {/* Left Column (Image) */}
-      <div className="w-full md:w-1/2 md:relative ">
+      <div className="w-full md:w-1/2 md:relative space-y-3 mb-20">
         <img
           src={About1_2}
           alt="Image"
-          className=" w-[70%] h-[70%] p-2 bg-green-200/50 md:w-auto md:absolute md:top-[75%] md:left-[65%] md:-translate-y-1/2 md:-translate-x-1/2 backdrop-opacity-0"
+          className="  p-2 bg-green-200/50 md:w-auto md:absolute md:top-[90%] md:left-[65%] md:-translate-y-1/2 md:-translate-x-1/2 backdrop-opacity-0"
         />
         <img
           src={About1_1}
