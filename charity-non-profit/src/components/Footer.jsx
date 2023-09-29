@@ -1,6 +1,11 @@
 
 import { Button } from '@material-tailwind/react';
 
+import Twitter from '../assets/icons8-twitter.svg'
+import Instagram from '../assets/icons8-instagram.svg'
+import Pinterest from '../assets/icons8-pinterest.svg'
+import Youtube from '../assets/icons8-youtube.svg'
+
 const  Footer =()=> {
   return (
     <footer className="relative w-full bg-black">
@@ -39,8 +44,11 @@ const  Footer =()=> {
             </div>
                 <p>Your email is safe with us,we don’t spam.</p>
                 <p>Follow Me</p>
-                <div>
-                    
+                <div className='flex gap-4'>
+                    <img src={Twitter} alt="twitter" className='bg-white rounded-full w-8 h-8'/>
+                    <img src={Instagram} alt="instagram" className='bg-white rounded-full w-8 h-8'/>
+                    <img src={Pinterest} alt="pininterest" className='bg-white rounded-full w-8 h-8'/>
+                    <img src={Youtube} alt="youtube" className='bg-white rounded-full w-8 h-8'/>
                 </div>
           </div>
         </div>
