@@ -3,6 +3,7 @@ import AboutCard from "./AboutCard";
 import JohnAvatar from '../assets/JohnAvatar.svg'
 import JackAvatar from '../assets/JackAvatar.svg'
 import SakibAvatar from '../assets/SakibAvatar.svg'
+import DiagonalArrow from '../assets/DiagonalArrow.svg'
 const Testimonials = [
   {
     id: 1,
@@ -32,13 +33,15 @@ const Testimonials = [
 
 function Testimonial() {
   return (
-    <div className="lg:mx-40 border text-center md:text-start my-10">
+    <div className="lg:mx-40  text-center md:text-start my-10">
       <p className="text-green-300">Testimonial</p>
       <div className=" md:flex relative">
         <h2 className="text-2xl w-72 font-semibold">
           What People Say About Us
         </h2>
-        <div className="bg-green-300 w-6 h-6 rounded-tr-xl text-center md:absolute md:left-[95%]  ">Hi</div>
+        <div className="bg-green-300 w-6 h-6 rounded-tr-xl text-center md:absolute md:left-[95%]  ">
+          <img src ={DiagonalArrow} alt="Image" />
+        </div>
       </div>
       <div className="items-center md:flex md:space-x-6 w-full block">
         {Testimonials.map((item) => (
