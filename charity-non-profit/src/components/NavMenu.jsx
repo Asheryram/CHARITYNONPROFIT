@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import React,{ useState,useEffect} from "react";
+import VGFLogo from '../assets/VGFLogo.svg'
+
 import {
-  Navbar,
   Collapse,
   Typography,
   Button,
@@ -41,7 +42,7 @@ const colors = {
 
 
 /**
- *  create new arrays for menu list
+ *  Add/Change new objects for menu list
  * About US array @aboutUsListMenuItems
  * How We  help array @helpListMenuItems
  */
@@ -82,6 +83,10 @@ const aboutListMenuItems = [
     description: "All the stuff that we dan from legal made us add.",
   }
 ];
+/**
+ * How We Can Help Menu pop-up list
+ */
+
 const helpListMenuItems = [
     {
         color: "purple",
@@ -231,7 +236,7 @@ const NavMenu = ({children})=> {
     <>
     
    
-    <Navbar >
+    <nav className="min-w-full p-4">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
@@ -239,7 +244,7 @@ const NavMenu = ({children})=> {
           variant="h6"
           className="mr-4 cursor-pointer py-1.5 lg:ml-2"
         >
-          Material Tailwind
+          <img src={VGFLogo} alt='Logo' className="w-6 h-6" />
         </Typography>
         <div className="hidden lg:block">
           <NavList />
@@ -272,7 +277,7 @@ const NavMenu = ({children})=> {
          
         </div>
       </Collapse>
-    </Navbar>
+    </nav>
     {children}
     </>
   );

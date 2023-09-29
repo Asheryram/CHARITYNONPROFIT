@@ -1,33 +1,28 @@
-import {Avatar  } from "@material-tailwind/react";
-import r from '../assets/react.svg'
+/* eslint-disable react/prop-types */
+import { Avatar } from "@material-tailwind/react";
+import r from "../assets/react.svg";
 
-function AboutCard() {
+function AboutCard({ topic, info, avatar, name, position }) {
   return (
-    <div className="mt-6 w-96 border-green-400 border ">
+    <div className="mt-6 md:w-[30%] border-green-400 border p-1">
       <div className="space-y-4">
-        <img src={r} alt='Image'/>
-        <h5  className="mb-2">
-          Kindness
-        </h5>
+        <img src={r} alt="Image" />
+        <h5 className="mb-2">{topic}</h5>
         <div>
-          The place is close to Barceloneta Beach and bus stop just 2 min by
-          walk and near to &quot;Naviglio&quot; where you can enjoy the main
-          night life in Barcelona.
+         {info}
         </div>
       </div>
       <div className="pt-2">
-      <div className="flex items-center space-x-20 mx-4">
-        <Avatar src={r} alt="avatar"  size="sm"/>
-        <div>
-          <h6>Tania Andrew</h6>
-          <p className="font-normal">
-            Web Developer
-          </p>
+        <div className="md:flex  md:space-x-12 md:mx-4">
+          <Avatar src={avatar} alt="avatar" size="sm" />
+          <div>
+            <h6>{name}</h6>
+            <p className="font-normal">{position}</p>
+          </div>
         </div>
       </div>
-      </div>
     </div>
-  )
+  );
 }
 
-export default AboutCard
+export default AboutCard;

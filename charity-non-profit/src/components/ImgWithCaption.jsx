@@ -22,7 +22,7 @@ const ImgWithCaption =()=> {
           equip them to fulfill their unique purpose.
         </p>
         <div className="space-x-5">
-        <Button variant="gradient " className="bg-green-500">Donate Now</Button>
+        <Button   className="bg-green-500">Donate Now</Button>
       <Button variant="outlined"  className=" border-green-500 text-white">Know About Us</Button>
         </div>
       </div>
