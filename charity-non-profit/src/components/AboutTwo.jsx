@@ -49,8 +49,8 @@ function AboutTwo() {
       </div>
 
       {/* Right Column (Text) */}
-      <div className="w-full space-y-3 lg:w-1/2 lg:relative px-28 ">
-        <div className="   p-2 bg-green-200/50 lg:w-[60%] lg:absolute lg:top-[70%] lg:left-[65%] lg:-translate-y-1/2 lg:-translate-x-1/2 backdrop-opacity-0">
+      <div className="w-full space-y-3 lg:w-1/2 lg:relative  ">
+        <div className="  p-2 bg-green-200/50 lg:w-[60%] lg:absolute lg:top-[70%] lg:left-[65%] lg:-translate-y-1/2 lg:-translate-x-1/2 backdrop-opacity-0">
           <div className="bg-white w-full h-auto">
             <ul className="list-disc list-inside text-sm space-y-4 p-1">
               <li className="text-green-400">
