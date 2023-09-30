@@ -25,19 +25,19 @@ const  Footer =()=> {
           </div>
           <div className="md:col-span-2 space-y-4">
             <p className="font-semibold">Newsletter</p>
-            <div className="flex">
+            <div className="md:flex ">
             <input
                 id="email-address"
                 name="email"
                 type="email"
                 autoComplete="email"
                 required
-                className="min-w-0 flex-auto rounded-none border-0 bg-white/5 px-3.5 py-2 h-20 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                className="lg:min-w-0 flex-auto rounded-none border-0 bg-white/5 px-3.5 py-2 sm:mb-20 md:h-20 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 placeholder="Enter your email"
               />
               <Button
                 type="submit"
-                className="flex-none h-12 capitalize rounded-none bg-green-800  py-2.5 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="flex-none h-12 capitalize rounded-none bg-green-800   text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 mt-3 md:mt-0"
               >
                 Subscribe
               </Button>

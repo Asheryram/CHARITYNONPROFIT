@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import { Avatar } from "@material-tailwind/react";
-import r from "../assets/react.svg";
+import quote from "../assets/quote.svg";
 
 function AboutCard({ topic, info, avatar, name, position }) {
   return (
     <div className="mt-6 md:w-[30%] border-green-400 border p-1">
       <div className="space-y-4">
-        <img src={r} alt="Image" />
+        <img src={quote} alt="Image" />
         <h5 className="mb-2">{topic}</h5>
         <div>
          {info}

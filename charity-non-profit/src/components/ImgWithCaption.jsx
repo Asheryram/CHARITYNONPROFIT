@@ -10,7 +10,7 @@ const ImgWithCaption =()=> {
   return (
     <div className="relative">
       <img
-        className="h-96 w-full rounded-lg object-cover object-center"
+        className="h-[450px] md:h-96 w-full rounded-lg object-cover object-center"
         src={headerImage}
         alt="nature image"
       />

@@ -26,7 +26,7 @@ function AboutOne() {
           <div className="border-b-2 w-20 border-gray-400 absolute left-[50%] top-[50%]"></div>
           </div>
         </h2>
-        <p className="text-5xl font-bold text-justify">
+        <p className="text-5xl font-bold text-start">
           Your Support is Really Powerful.
         </p>
         <p className="text-lg font-thin text-justify">

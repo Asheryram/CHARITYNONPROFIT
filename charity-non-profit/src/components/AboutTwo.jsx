@@ -17,7 +17,7 @@ function AboutTwo() {
           <div className="border-b-2 w-20 border-gray-400 absolute left-[50%] top-[50%]"></div>
           </div>
         </h2>
-        <p className="text-5xl lg:w-[70%] font-bold text-justify">
+        <p className="text-5xl lg:w-[70%] font-bold text-start">
           Let Us Come Together To Make a Difference{" "}
         </p>
         <p className=" font-thin lg:w-[70%] text-justify">

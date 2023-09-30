@@ -33,17 +33,17 @@ const Testimonials = [
 
 function Testimonial() {
   return (
-    <div className="lg:mx-40  text-center md:text-start my-10">
+    <div className="lg:mx-16  text-center md:text-start my-10">
       <p className="text-green-300">Testimonial</p>
-      <div className=" md:flex relative">
+      <div className=" md:flex relative md:space-x-[56%] lg:space-x-[60%] xl:space-x-[70%] 2xl:space-x-[79%]">
         <h2 className="text-2xl w-72 font-semibold">
           What People Say About Us
         </h2>
-        <div className="bg-green-300 w-6 h-6 rounded-tr-xl text-center md:absolute md:left-[95%]  ">
+        <div className="bg-green-300 w-6 h-6 rounded-tr-xl text-center  ">
           <img src ={DiagonalArrow} alt="Image" />
         </div>
       </div>
-      <div className="items-center md:flex md:space-x-6 w-full block">
+      <div className="items-center md:flex md:space-x-6 ">
         {Testimonials.map((item) => (
           <AboutCard
             key={item.id}
