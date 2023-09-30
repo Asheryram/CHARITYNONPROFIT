@@ -11,8 +11,11 @@ function AboutTwo() {
       {/* Left Column (Image) */}
 
       <div className="w-full lg:w-2/4 flex flex-col justify-center lg:ml-4 lg:mr-4">
-        <h2 className=" w-full lg:w-[70%] font-medium mb-4 text-start">
+        <h2 className=" w-full lg:w-[70%] font-medium mb-4 text-start flex ">
           Welcome to Charity
+          <div className="relative pl-20">
+          <div className="border-b-2 w-20 border-gray-400 absolute left-[50%] top-[50%]"></div>
+          </div>
         </h2>
         <p className="text-5xl lg:w-[70%] font-bold text-justify">
           Let Us Come Together To Make a Difference{" "}

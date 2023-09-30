@@ -20,8 +20,11 @@ function AboutOne() {
 
       {/* Right Column (Text) */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center lg:ml-4 lg:mr-4">
-        <h2 className=" w-full lg:w-3/4 font-medium mb-4 text-justify">
-          About Us
+        <h2 className=" w-full lg:w-3/4 font-medium mb-4 text-justify flex ">
+          About Us 
+           <div className="relative pl-20">
+          <div className="border-b-2 w-20 border-gray-400 absolute left-[50%] top-[50%]"></div>
+          </div>
         </h2>
         <p className="text-5xl font-bold text-justify">
           Your Support is Really Powerful.
